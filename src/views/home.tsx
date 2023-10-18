@@ -20,7 +20,7 @@ export function Home() {
 
     return (
         <div className="">
-            <h2 className="Movies">Hola</h2>
+            <h2 className="Movies">Peliculas</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4 p-2">
                 {movies?.map((movie) => (
                     <div key={movie.id}>
